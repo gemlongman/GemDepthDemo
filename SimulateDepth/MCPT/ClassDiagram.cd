@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AixAlignBoundingBox" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAACAAAAAAIAAAAAABAiAIAA=</HashCode>
+      <FileName>AixAlignBoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Display" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAgAAAAAAAIQAAAAAAAAAAADAAAAAAIAI=</HashCode>
+      <FileName>display.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reflectance" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAgQAgAAAAAAAAAAAAAEgAAAAAABAAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ray" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAALAAAAAAACAARAABAAQAAAAIAAAAEAAAACAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intersection" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAhAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicObj" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Triangle" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQEAAAAQAJAAAAAggAAAJAIAIAAAAAAABAgAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAQAAgAAAAIAAAAAggAAAAACEAAAQAAAQAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KdTree" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAgCABABAAIAAAEACAAAAAQA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjModel" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAIAgAIQAAAAABAAAAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathTracer" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQAAAAAgAAKACACAAAAACAACAEAAQAA=</HashCode>
+      <FileName>PathTracer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAABAAAAUAQQAgAAEAAAAEAAAAAAAAAgAAgAI=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAEAAAAQQCwAEAgABAQAIESAAAAAAAAEAAAIA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3f" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>Vector3f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix4" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAgIAAAAAAAAAAAEAAAAACAAgAAAAAAA=</HashCode>
+      <FileName>Vector3f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Color3f" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector3f.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Point3f" Collapsed="true">
+    <Position X="2" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector3f.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="LightSourceType" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABAQAAAACAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LightType" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACCBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AXIS" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
